@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?latexml searchpaths="/source"?>
+<?latexml package="bookml/bookml-init"?>
+<?latexml class="amsart" options="oneside,11pt"?>
+<?latexml package="fontenc" options="T1"?>
+<?latexml package="babel" options="british"?>
+<?latexml package="hyperref" options="pdfusetitle"?>
+<?latexml package="lmodern"?>
+<?latexml package="bookml/bookml"?>
+<?latexml RelaxNGSchema="bookml/schema"?>
+<?latexml bml-font-size="10.95"?>
+<document xmlns="http://dlmf.nist.gov/LaTeXML" class="ltx_authors_1line ltx_leqno" prefix="dcterms: http://purl.org/dc/terms/" xml:lang="en-GB">
+  <resource src="LaTeXML.css" type="text/css"/>
+  <resource src="ltx-article.css" type="text/css"/>
+  <resource src="ltx-amsart.css" type="text/css"/>
+  <resource src="bookml/gitbook/css/style.css" type="text/css"/>
+  <resource src="bookml/gitbook/css/plugin-table.css" type="text/css"/>
+  <resource src="bookml/gitbook/css/plugin-search.css" type="text/css"/>
+  <resource src="bookml/gitbook/css/plugin-bookdown.css" type="text/css"/>
+  <resource src="bookml/gitbook/css/plugin-fontsettings.css" type="text/css"/>
+  <resource src="bookml/gitbook/js/app.min.js" type="text/javascript;bmllocation=body"/>
+  <resource src="bookml/gitbook/js/jquery.highlight.js" type="text/javascript;bmllocation=body"/>
+  <resource src="bookml/gitbook/js/plugin-search.js" type="text/javascript;bmllocation=body"/>
+  <resource src="bookml/gitbook/js/plugin-fontsettings.js" type="text/javascript;bmllocation=body"/>
+  <resource src="bookml/gitbook/js/plugin-bookdown.js" type="text/javascript;bmllocation=body"/>
+  <resource src="bookml/gitbook/css/fontawesome/fontawesome-webfont.ttf" type="font/ttf"/>
+  <resource src="template.pdf" type="application/pdf;bmllocation=download;bmlname=PDF (serif)"/>
+  <resource src="template-sans.pdf" type="application/pdf;bmllocation=download;bmlname=PDF (sans serif)"/>
+  <resource src="template-sans-large.pdf" type="application/pdf;bmllocation=download;bmlname=PDF (sans, large)"/>
+  <resource src="bookml/CSS/style.css" type="text/css"/>
+  <resource src="bookml/CSS/style.gitbook,plain.css" type="text/css"/>
+  <resource src="bookml/CSS/style.gitbook.css" type="text/css"/>
+  <resource src="bmluser/colors.gitbook-template.css" type="text/css"/>
+  <title fontsize="91%">BookML template</title>
+  <creator role="author">
+    <personname><text fontsize="91%">Author</text></personname>
+  </creator>
+  <para xml:id="p1">
+    <p>You can use this template in the following ways:</p>
+    <enumerate xml:id="S0.I1">
+      <item xml:id="S0.I1.i1">
+        <tags>
+          <tag>(1)</tag>
+          <tag role="autoref">item 1</tag>
+          <tag role="refnum">1</tag>
+          <tag role="typerefnum">item 1</tag>
+        </tags>
+        <para xml:id="S0.I1.i1.p1">
+          <p>Replace the content of <text font="typewriter">template.tex</text> with your content. To change the file names in the output, rename:</p>
+          <itemize xml:id="S0.I1.i1.I1">
+            <item xml:id="S0.I1.i1.I1.i1">
+              <tags>
+                <tag>•</tag>
+                <tag role="autoref">item </tag>
+                <tag role="typerefnum">1st item</tag>
+              </tags>
+              <para xml:id="S0.I1.i1.I1.i1.p1">
+                <p><text font="typewriter">template.tex</text> to <text font="typewriter">NAME.tex</text>,</p>
+              </para>
+            </item>
+            <item xml:id="S0.I1.i1.I1.i2">
+              <tags>
+                <tag>•</tag>
+                <tag role="autoref">item </tag>
+                <tag role="typerefnum">2nd item</tag>
+              </tags>
+              <para xml:id="S0.I1.i1.I1.i2.p1">
+                <p><text font="typewriter">template-sans.tex</text> to <text font="typewriter">NAME-sans.tex</text> (and adjust its content),</p>
+              </para>
+            </item>
+            <item xml:id="S0.I1.i1.I1.i3">
+              <tags>
+                <tag>•</tag>
+                <tag role="autoref">item </tag>
+                <tag role="typerefnum">3rd item</tag>
+              </tags>
+              <para xml:id="S0.I1.i1.I1.i3.p1">
+                <p><text font="typewriter">template-sans-large.tex</text> to <text font="typewriter">NAME-sans-large.tex</text> (and adjust its content).</p>
+              </para>
+            </item>
+          </itemize>
+        </para>
+      </item>
+      <item xml:id="S0.I1.i2">
+        <tags>
+          <tag>(2)</tag>
+          <tag role="autoref">item 2</tag>
+          <tag role="refnum">2</tag>
+          <tag role="typerefnum">item 2</tag>
+        </tags>
+        <para xml:id="S0.I1.i2.p1">
+          <p>Add <text class="ltx_LaTeX_logo" cssstyle="letter-spacing:-0.2em; margin-right:0.1em">L<text cssstyle="font-variant:small-caps;" yoffset="0.4ex">a</text>T<text cssstyle="font-variant:small-caps;font-size:120%" yoffset="-0.2ex">e</text>X</text> files to the same folder containing <text font="typewriter">template.tex</text>. Any files containing the string <verbatim font="typewriter">\documentclass</verbatim> (even commented out) will be compiled separately. You may delete <text font="typewriter">template.tex</text> and accompanying <text font="typewriter">sans</text> and <text font="typewriter">sans-large</text> files if you are not using them.</p>
+        </para>
+      </item>
+    </enumerate>
+    <p>In all cases, consult <text font="typewriter">template.tex</text> for how to use more advanced BookML functionality (such as providing large print PDFs or setting additional PDF and SCORM metadata).</p>
+  </para>
+  <para xml:id="p2">
+    <break/>
+  </para>
+  <para xml:id="p3">
+    <p>For use with Overleaf (requires paid account):</p>
+    <enumerate xml:id="S0.I2">
+      <item xml:id="S0.I2.i1">
+        <tags>
+          <tag>(1)</tag>
+          <tag role="autoref">item 1</tag>
+          <tag role="refnum">1</tag>
+          <tag role="typerefnum">item 1</tag>
+        </tags>
+        <para xml:id="S0.I2.i1.p1">
+          <p>Upload the template to a new Overleaf project. Ensure that the <text font="typewriter">.github</text> folder is also included.</p>
+        </para>
+      </item>
+      <item xml:id="S0.I2.i2">
+        <tags>
+          <tag>(2)</tag>
+          <tag role="autoref">item 2</tag>
+          <tag role="refnum">2</tag>
+          <tag role="typerefnum">item 2</tag>
+        </tags>
+        <para xml:id="S0.I2.i2.p1">
+          <p>From the Overleaf menu, sync the project with a new (private) GitHub repository. After one or two minutes, you will receive an email announcing that the repository has a new a release containing the various BookML outputs. Follow the link in the email to download them.</p>
+        </para>
+      </item>
+      <item xml:id="S0.I2.i3">
+        <tags>
+          <tag>(3)</tag>
+          <tag role="autoref">item 3</tag>
+          <tag role="refnum">3</tag>
+          <tag role="typerefnum">item 3</tag>
+        </tags>
+        <para xml:id="S0.I2.i3.p1">
+          <p>Every time you sync your Overleaf changes to GitHub, a new build will start and generate a new release.</p>
+        </para>
+      </item>
+      <item xml:id="S0.I2.i4">
+        <tags>
+          <tag>(4)</tag>
+          <tag role="autoref">item 4</tag>
+          <tag role="refnum">4</tag>
+          <tag role="typerefnum">item 4</tag>
+        </tags>
+        <para xml:id="S0.I2.i4.p1">
+          <p>For a moderate speed up, change the <text class="ltx_TeX_logo" cssstyle="letter-spacing:-0.2em; margin-right:0.2em">T<text cssstyle="font-variant:small-caps;font-size:120%;" yoffset="-0.2ex">e</text>X</text> Live scheme in the file <text font="typewriter">.github/workflows/bookml.yaml</text>. This will download smaller <text class="ltx_TeX_logo" cssstyle="letter-spacing:-0.2em; margin-right:0.2em">T<text cssstyle="font-variant:small-caps;font-size:120%;" yoffset="-0.2ex">e</text>X</text> Live images containing fewer packages.</p>
+        </para>
+      </item>
+      <item xml:id="S0.I2.i5">
+        <tags>
+          <tag>(5)</tag>
+          <tag role="autoref">item 5</tag>
+          <tag role="refnum">5</tag>
+          <tag role="typerefnum">item 5</tag>
+        </tags>
+        <para xml:id="S0.I2.i5.p1">
+          <p>If the build is cancelled, increase the timeout in the same file. See the <ref class="ltx_href" href="https://github.com/vlmantova/bookml-action">BookML action documentation</ref> for more details.</p>
+        </para>
+      </item>
+    </enumerate>
+  </para>
+  <rdf about="" content="Empty template for use with BookML." property="dcterms:subject"/>
+  <navigation>
+    <inline-logical-block class="ltx_page_footer">
+      <para xml:id="p4">
+        <p>Copyright © 2025 Author. Compiled with BookML v0.14.0.
+</p>
+      </para>
+    </inline-logical-block>
+  </navigation>
+</document>

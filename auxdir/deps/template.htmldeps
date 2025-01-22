@@ -1,0 +1,9 @@
+auxdir/html/template/index.html: LATEXMLPOSTAUTOFLAGS=--navigationtoc=context
+auxdir/html/template/index.html: template.pdf
+template.pdf:
+auxdir/html/template/index.html: template-sans.pdf
+template-sans.pdf:
+auxdir/html/template/index.html: template-sans-large.pdf
+template-sans-large.pdf:
+auxdir/html/template/index.html: bmluser/colors.gitbook-template.css
+bmluser/colors.gitbook-template.css:
